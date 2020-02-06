@@ -7,7 +7,7 @@ const employeesSchema = mongoose.Schema({
 						"evaluation"  	: String,
 						"score"			: String,
 						"score"			: Number,
-					},
+					},  
 	
 });
 
