@@ -1,0 +1,34 @@
+
+
+
+
+MongoDB—NoSQL Document Store—Employee Training Score Analysis
+
+
+ 
+Analyze Employee Training score data 
+PQR Corp is a leading corporate training provider. A lot of prestigious organizations send their employees to PQR Corp for training on different skills. As a distinct training provider, PQR Corp has decided to share analysis report with their clients. This report will help their clients know the employees who have completed training and evaluation exam, what are their strengths, and what are the areas where employees need improvement. This is going to be a unique selling feature for the PQR Corp. As PQR Corp is already doing great business and they give training to a large number of people every month, they have huge amount of data to deal with. They have hired you as an expert and want your help to solve this problem.
+Attributes of data:
+1.	Id : id of the person who was trained
+2.	Name : name of the person who was trained
+3.	Evaluation : evaluation term
+4.	Score : score achieved by the person for the specific term
+A person can undergo multiple evaluations. Each evaluation will have a unique result score.
+You can see the sample data below.
+Sample Data
+{
+"_id":0,
+"name":"Ancy",
+"results": [
+{"evaluation":"term1","score":1.463179736705023},
+{"evaluation":"term2","score":11.78273309957772},
+{"evaluation":"term3","score":6.676176060654615}
+]
+}
+PQR Corp has assigned the following tasks to you to analyze the results:
+1.	Find count and percentage of employees who failed in term 1, the passing score being 37
+2.	Find employees who failed in aggregate (term1 + term2 + term3)
+3.	Find the Average score of trainees for term1
+4.	Find the Average score of trainees for aggregate (term1 + term2 + term3)     
+5.	Find number of employees who failed in all the three (term1 + term2 + term3)
+6.	Find the number of employees who failed in any of the three (term1 + term2 + term3)
