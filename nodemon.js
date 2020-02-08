@@ -1,5 +1,5 @@
-exports={
+module.exports={
 					port 	: 3000,
-					dbname 	: "bookssimplilearn",
+					dbname 	: "empsimplilearn",
 					JWT_KET : "secret"
 				}

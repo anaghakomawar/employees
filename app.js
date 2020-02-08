@@ -7,10 +7,11 @@ const mongoose = require ('mongoose');
 var globalVariable = require('./nodemon.js');
 
 
-const empRoutes 				= require('api/book/routes.js');
+const empRoutes 				= require('./api/employees/routes.js');
 
 mongoose.connect('mongodb://localhost/'+globalVariable.dbname,{
-	useNewUrlParser: true
+	useNewUrlParser: true,
+	useUnifiedTopology: true
 })
 mongoose.promise =global.Promise;
 

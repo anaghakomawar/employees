@@ -1,6 +1,6 @@
 const express 	= require("express");
 const router 	= express.Router();
-const EmployeesController = require('controls.js');
+const EmployeesController = require('./controls.js');
 
 // 1.	Find count and percentage of employees who failed in term 1, the passing score being 37
 router.get('/count_percentage_failed_termOne', EmployeesController.count_percentage_failed_termOne);
